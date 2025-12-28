@@ -1,10 +1,92 @@
-This project focuses on creating a visually appealing login and signup interface with interactive design elements. The layout includes a stylish background with an animated gradient, giving the page a dynamic, modern look. It is built using HTML and CSS with an emphasis on user experience and responsiveness across various screen sizes.
+## 🛒 Django Organic Store Web Application
 
-Key features:
-- **Animated Background**: The background uses a moving linear gradient, creating a lively visual effect as users interact with the page.
-- **Responsive Design**: The interface adapts to different screen sizes, ensuring the login and signup forms look great on both desktops and mobile devices.
-- **Interactive Forms**: Input fields have floating labels that move when the user interacts with them, enhancing the user experience.
-- **Stylish Buttons**: The submit button is designed with a prominent green color, making it stand out and providing clear call-to-action cues.
-- **Smooth Transitions**: Hover and focus effects are applied to input fields and other elements, adding subtle yet effective transitions that improve the overall look and feel.
+This project is a **Django-based web application** created by converting a **free HTML/CSS template** into a dynamic Django project.  
+It demonstrates how a static frontend theme can be structured, managed, and extended using **Django’s backend architecture**.
 
-Overall, the project offers a sleek, user-friendly login and signup experience with a modern, visually appealing design.
+## 📸 Project Screenshots
+<table>
+  <tr>
+    <td><img src="./dashboard.jpg" width="330"/></td>
+    <td><img src="./menu.jpg" width="320"/></td>
+    <td rowspan="2" align="center">
+      <img src="./products.jpg" width="320"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td><img src="./cart.jpg" width="330"/></td>
+    <td></td>
+  </tr>
+</table>
+
+
+## 📌 Project Overview
+
+- 🔁 Converted from static HTML/CSS to a Django project
+- 🧩 Organized templates, static assets, and Django apps
+- ⚙️ Ready for backend features like authentication, database models, and admin panel
+- 🎨 Retains original UI while enabling server-side rendering
+
+This project can be used as:
+- A **starter Django website**
+- A **learning project for Django beginners**
+- A **base template for client or academic projects**
+
+---
+
+## 🎨 Template Source & Attribution
+
+This project is based on a **free HTML/CSS template** provided by:
+
+**TemplatesJungle.com**  
+🔗 https://templatesjungle.com/
+
+> The template is **free for both personal and commercial use**, provided the **credit link to TemplatesJungle.com is retained** in the footer.
+
+---
+
+## 🔄 Modifications Made
+
+Compared to the original static template, the following changes were made:
+
+- ✅ Integrated Django project structure
+- ✅ Added Django app for routing and views
+- ✅ Prepared static asset folders (`css`, `js`, `images`)
+- ✅ Enabled Django template rendering
+- ✅ Organized files for scalability and maintenance
+
+> ⚠️ This repository does **not redistribute the template as-is**.  
+> It represents a **Django adaptation and implementation** of the original design.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend**: Django (Python)
+- **Frontend**: HTML5, CSS3, Bootstrap
+- **Template Engine**: Django Templates
+- **Database**: SQLite (default)
+
+---
+
+## 📁 Project Structure
+```
+organic-store-django/
+├── manage.py                 # Django management script
+├── db.sqlite3                # SQLite database
+├── index.html                # Converted main HTML template
+├── style.css                 # Custom styles
+├── css/                      # CSS assets
+├── js/                       # JavaScript assets
+├── images/                   # Image assets
+├── organic_theme/            # Django app
+│   ├── views.py
+│   ├── urls.py
+│   └── templates/
+├── siteproj/                 # Django project settings
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── README.md                 # Project documentation
+├── readme.txt                # Original template license & notes
+```
