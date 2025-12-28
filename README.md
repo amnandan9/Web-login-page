@@ -4,21 +4,27 @@ This project is a **Django-based web application** created by converting a **fre
 It demonstrates how a static frontend theme can be structured, managed, and extended using **Django’s backend architecture**.
 
 ## 📸 Project Screenshots
+<div align="center">
 <table>
   <tr>
-    <td><img src="./dashboard.jpg" width="330"/></td>
-    <td><img src="./menu.jpg" width="320"/></td>
-    <td rowspan="2" align="center">
-      <img src="./products.jpg" width="320"/>
+    <td colspan="3" align="center">
+      <img src="./dashboard.jpg" width="750"/>
     </td>
   </tr>
 
   <tr>
-    <td><img src="./cart.jpg" width="330"/></td>
-    <td></td>
+    <td align="center">
+      <img src="./cart.jpg" width="200"/>
+    </td>
+    <td align="center">
+      <img src="./menu.jpg" width="100"/>
+    </td>
+    <td align="center">
+      <img src="./products.jpg" width="410"/>
+    </td>
   </tr>
 </table>
-
+</div>
 
 ## 📌 Project Overview
 
@@ -33,18 +39,6 @@ This project can be used as:
 - A **base template for client or academic projects**
 
 ---
-
-## 🎨 Template Source & Attribution
-
-This project is based on a **free HTML/CSS template** provided by:
-
-**TemplatesJungle.com**  
-🔗 https://templatesjungle.com/
-
-> The template is **free for both personal and commercial use**, provided the **credit link to TemplatesJungle.com is retained** in the footer.
-
----
-
 ## 🔄 Modifications Made
 
 Compared to the original static template, the following changes were made:
@@ -90,3 +84,11 @@ organic-store-django/
 ├── README.md                 # Project documentation
 ├── readme.txt                # Original template license & notes
 ```
+## 🎨 Template Source & Attribution
+
+This project is based on a **free HTML/CSS template** provided by:
+
+**TemplatesJungle.com**  
+🔗 https://templatesjungle.com/
+
+> The template is **free for both personal and commercial use**, provided the **credit link to TemplatesJungle.com is retained** in the footer.
