@@ -1,0 +1,34 @@
+{% extends "organic_theme/base.html" %}
+{% load static %}
+
+{% block content %}
+  {% include "organic_theme/partials/svg_defs.html" %}
+  <header>
+    <div class="container-fluid">
+      <!-- Kept minimal; real header pulled from original template as needed -->
+      <div class="row py-3 border-bottom">
+        <div class="col-sm-4 col-lg-2 text-center text-sm-start d-flex gap-3 justify-content-center justify-content-md-start">
+          <div class="d-flex align-items-center my-3 my-sm-0">
+            <a href="{% url 'organic_home' %}"><img src="{% static 'images/logo.svg' %}" alt="logo" class="img-fluid"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section style="background-image: url('{% static 'images/banner-1.jpg' %}');background-repeat: no-repeat;background-size: cover;">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-6 pt-5 mt-5">
+          <h2 class="display-1 ls-1"><span class="fw-bold text-primary">Organic</span> Foods at your <span class="fw-bold">Doorsteps</span></h2>
+          <p class="fs-4">Dignissim massa diam elementum.</p>
+          <div class="d-flex gap-3">
+            <a href="#" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Start Shopping</a>
+            <a href="#" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Join Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
